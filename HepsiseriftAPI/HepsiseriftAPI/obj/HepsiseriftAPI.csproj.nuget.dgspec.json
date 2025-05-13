@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Şerif\\Desktop\\e-ticaret\\yeni\\project\\HepsiseriftAPI\\HepsiseriftAPI\\HepsiseriftAPI.csproj": {}
+    "C:\\Users\\Şerif\\Desktop\\e-ticaret\\yeni\\project\\internetprogodev\\HepsiseriftAPI\\HepsiseriftAPI\\HepsiseriftAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Şerif\\Desktop\\e-ticaret\\yeni\\project\\HepsiseriftAPI\\HepsiseriftAPI\\HepsiseriftAPI.csproj": {
+    "C:\\Users\\Şerif\\Desktop\\e-ticaret\\yeni\\project\\internetprogodev\\HepsiseriftAPI\\HepsiseriftAPI\\HepsiseriftAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Şerif\\Desktop\\e-ticaret\\yeni\\project\\HepsiseriftAPI\\HepsiseriftAPI\\HepsiseriftAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Şerif\\Desktop\\e-ticaret\\yeni\\project\\internetprogodev\\HepsiseriftAPI\\HepsiseriftAPI\\HepsiseriftAPI.csproj",
         "projectName": "HepsiseriftAPI",
-        "projectPath": "C:\\Users\\Şerif\\Desktop\\e-ticaret\\yeni\\project\\HepsiseriftAPI\\HepsiseriftAPI\\HepsiseriftAPI.csproj",
+        "projectPath": "C:\\Users\\Şerif\\Desktop\\e-ticaret\\yeni\\project\\internetprogodev\\HepsiseriftAPI\\HepsiseriftAPI\\HepsiseriftAPI.csproj",
         "packagesPath": "C:\\Users\\Şerif\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Şerif\\Desktop\\e-ticaret\\yeni\\project\\HepsiseriftAPI\\HepsiseriftAPI\\obj\\",
+        "outputPath": "C:\\Users\\Şerif\\Desktop\\e-ticaret\\yeni\\project\\internetprogodev\\HepsiseriftAPI\\HepsiseriftAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Şerif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,66 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.AspNetCore.Cors": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.15, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "MySql.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.25, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[7.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -105,15 +50,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
