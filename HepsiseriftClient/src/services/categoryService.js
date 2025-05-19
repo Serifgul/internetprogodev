@@ -1,13 +1,17 @@
 import api from './api';
 
 // Get all categories
+// getCategories.js içinde
 export const getCategories = async () => {
   try {
     const response = await api.get('/categories');
-    return response.data;
+    console.log('API Response:', response.data);
+
+    // Eğer response.data doğrudan dizi değilse şunu döndür:
+    return response.data.categories || []; 
   } catch (error) {
     console.error('Error fetching categories:', error);
-    throw error;
+    return []; // Hata durumunda boş dizi döndür
   }
 };
 
